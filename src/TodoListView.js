@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import {observer} from 'mobx-react';
 import TodoList from './TodoList.js';
 import Todo from './Todo.js';
+import {autorun} from 'mobx';
 @observer
 class TodoListView extends Component{
 	render(){
